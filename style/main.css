@@ -4,6 +4,7 @@ body {
     font-family: 'Oswald', serif;
     font-weight: 300;
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -56,4 +57,10 @@ h1 {
 
 .social_networks:hover {
     color: #222;
+}
+
+@media (max-width: 1024px) {
+    #photo {
+        margin-left: -80px;
+    }
 }
